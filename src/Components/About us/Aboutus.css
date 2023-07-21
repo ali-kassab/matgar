@@ -1,0 +1,39 @@
+
+.wards {
+  background-color: #eeeefa;
+}
+.aboutCustom {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 15px 5px 0 15px;
+  padding: 70px 35px;
+  position: relative;
+  transition: all 0.5s;
+  text-align: start;
+  max-width: 23% !important;
+}
+.aboutCustom::after {
+  border: 2px solid #565acf;
+  border-radius: 20px;
+  content: "";
+  height: 100%;
+  left: 9px;
+  position: absolute;
+  top: 18px;
+  width: 100%;
+  /* z-index: -1; */
+}
+.aboutCustom h2 {
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--orangecolor);
+}
+.aboutCustom h5 {
+  margin-bottom: 12px;
+  color: var(--btncolor);
+}
+.aboutCustom p {
+  font-size: 14px;
+}

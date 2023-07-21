@@ -1,0 +1,40 @@
+.Banner {
+  background-image: url("../../images/banner.jpg");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: -99;
+}
+.Banner .overlay {
+  background-color: #eeeef84a;
+  /* height: 800px; */
+  width: 100%;
+}
+.Banner h2 {
+  width: 100%;
+  margin-top: 100px;
+  text-transform: capitalize;
+  font-size: 64px;
+  font-weight: 700;
+}
+.Banner button {
+  margin-top: 20px;
+  background-color: var(--btncolor);
+  width: 200px;
+}
+.Banner img {
+  position: absolute;
+  left: 15px;
+  animation: alternate upDown infinite 1s;
+}
+.Banner .imageplus{
+  position: absolute;
+  right: 10%;
+  
+}
+.Banner .imageplus img{
+  animation: alternate infinite rotate 3s;
+}

@@ -1,0 +1,38 @@
+.bigbook {
+  display: flex;
+  justify-content: center;
+}
+
+.booking {
+  box-shadow: 0 10px 30px 0 rgba(31, 34, 120, 0.1);
+  background-color: #fff;
+  border-radius: 35px;
+  height: 500px;
+  width: 360px;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+.booking::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  color: var(--btncolor);
+  top: -18px;
+  left: -28px;
+  border-radius: 35px;
+  border: 2px solid var(--btncolor);
+  z-index: -99;
+}
+.booking h2 {
+  font-size: 28px !important;
+  font-weight: 700;
+  color: var(--textcolor);
+  width: 100%;
+}
+.booking button {
+  background-color: var(--orangecolor);
+  color: #fff;
+  width: 145px;
+}

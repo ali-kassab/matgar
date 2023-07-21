@@ -1,0 +1,139 @@
+.cover-icon {
+  background-color: var(--orangecolor);
+  border-radius: 40px 40px 0 40px;
+  height: 80px;
+  width: 80px;
+  position: relative;
+}
+.fa-phone-alt {
+  position: absolute;
+  top: 26px;
+  left: 25px;
+  font-size: 30px;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: var(--btncolor) 2px solid;
+  border-radius: 40px;
+  position: absolute;
+  top: 74px;
+  left: 53px;
+  animation: upDown alternate infinite 1.5s;
+}
+p {
+  font-size: 19px;
+  color: #88888f;
+}
+.row p::selection {
+  background-color: var(--btncolor);
+  color: #fff;
+}
+.text-contact h5 {
+  color: var(--orangecolor);
+}
+.text-contact h4 {
+  color: var(--btncolor);
+  width: 100% !important;
+  font-size: 19px;
+  cursor: pointer;
+}
+.cover-icon {
+  margin-right: 25px;
+}
+ul li {
+  line-height: 29px;
+  font-size: 19px;
+}
+ul li a {
+  transition: all 1s ease;
+  color: #88888f;
+  font-weight: 400;
+}
+ul li a:hover {
+  color: var(--maincolor);
+}
+
+.email,
+.subscribe {
+  width: 100%;
+  margin-bottom: 12px;
+  border: none;
+  box-shadow: 0 10px 60px 0 rgba(31, 34, 120, 0.1);
+  transition: all 1s ease;
+  position: relative;
+}
+.email:hover {
+  background: #fff;
+  border-color: #e1e1f0;
+  box-shadow: none !important;
+  color: #444;
+}
+.email:focus,
+.email:focus {
+  background: #fff;
+  border-color: #565acf;
+  border-radius: 6px;
+  box-shadow: none !important;
+  color: #444;
+}
+.subscribe {
+  color: #fff;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.plus {
+  position: absolute;
+  top: 40px;
+  right: -12px;
+  height: 43px;
+  width: 48px;
+  z-index: -1;
+  transition: all 1s;
+  animation: alternate rotate infinite linear 2s;
+}
+.fa-brands {
+  margin-top: 10px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  padding: 5px;
+  cursor: pointer;
+  animation: alternate infinite upDown 1s;
+}
+.fa-brands:hover {
+  color: var(--maincolor);
+  transform: scale(1.5);
+}
+
+.Copyright {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0px;
+  justify-content: center;
+  align-items: center;
+  color: var(--maincolor);
+}
+.Copyright span {
+  color: var(--orangecolor);
+  display: inline-block;
+}
+.one {
+  margin-bottom: 12px;
+}
+.four {
+  margin-bottom: 31px;
+}

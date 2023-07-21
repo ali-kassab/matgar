@@ -1,0 +1,67 @@
+.background{
+  background-image: url("../../images/banner.jpg");
+  position: relative;
+  z-index: 99999999;
+  width: 100% !;
+  padding:10% 0 ;
+}
+
+
+
+.contactform .row {
+  background-color: #fff;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 60px 0 rgba(31, 34, 120, 0.1);
+  /* transform: translateY(-122%); */
+
+  /* position: absolute; */
+  z-index: 9999;
+  /* top: 500px; */
+  width: 80%;
+  /* margin-bottom: 5%; */
+  text-align: center;
+  height: 100% !important;
+}
+.contactform input {
+  transition: all 1s ease;
+  padding: 23px 12px;
+  box-shadow: 0 10px 60px 0 rgba(31, 34, 120, 0.1);
+}
+.contactform input:hover,
+.contactform input:focus,
+.contactform input::selection {
+  background-color: rgba(137, 43, 226, 0.199) !important;
+  border: none !important;
+}
+.side {
+  position: relative;
+  text-align: start;
+  background-image: url("../../images/side.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 15px;
+  z-index: -99;
+}
+.side .overlay {
+  background-color: #4e52bbb8;
+  height: 100%;
+border-radius: 15px;
+}
+
+.side .textbox {
+    padding: 40px 51px;
+    color: #fff !important;
+    width: 77%;
+}
+.side h3,.side h5,.side h6,.side hr,.side p ,.side a{
+    color: #fff !important;
+    cursor: pointer;
+}
+.icons .fa-brands{
+    cursor: pointer !important;
+}
+.form{
+
+    margin: 40% 0;
+}

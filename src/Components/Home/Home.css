@@ -1,0 +1,75 @@
+header {
+  margin-top: 0;
+}
+h5 {
+  color: var(--maincolor);
+  font-weight: 600;
+}
+h5::selection {
+  background-color: var(--maincolor);
+  color: #fff;
+}
+.home h2 {
+  width: 600px;
+  line-height: 55px;
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--textcolor);
+  margin-bottom: 15px;
+}
+h2::selection {
+  background-color: var(--btncolor);
+  color: #fff;
+}
+button {
+  background-color: var(--orangecolor);
+  height: 63px;
+  width: 133px;
+  border: 1 solid transparent;
+  border-color: transparent;
+  border-radius: 24px;
+  transition: all ease 0.5s;
+}
+button a {
+  color: #fff;
+}
+button:hover,
+button:hover a {
+  color: #fff;
+  background-color: #f49762;
+}
+
+.item {
+  position: relative;
+}
+
+#imgDoctor {
+  max-width: 100% !important;
+  width: 450px !important;
+  animation: upDown alternate 1s infinite;
+  transition: 0.5s ease all;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.home .item i {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border: 4px solid;
+  border-radius: 3px;
+  border-color: var(--maincolor);
+  background-color: transparent;
+  top: 50px;
+  transform: rotate(57deg) !important;
+  left: -13px;
+  animation: 0.2s upDown alternate infinite;
+}

@@ -1,0 +1,160 @@
+.aboutItemPics {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .aboutItemPics img.one {
+    border-radius: 40px 40px 40px 0px;
+    margin-bottom: 53px;
+    margin-left: 68px;
+  }
+  .aboutItemPics img.two {
+    margin-left: 17px !important;
+    width: 47% !important;
+    border-radius: 40px 0px 40px 40px;
+  }
+  .aboutItemPics img.three {
+    border-radius: 40px 40px 40px 0px;
+  }
+  .aboutItemPics .experience {
+    background-color: #e6e7ff;
+    border-radius: 40px 40px 0px 40px;
+    border: none;
+    display: inline-block;
+    width: 217px;
+    height: 224px;
+    padding-top: 24px;
+    margin-left: 19px;
+    box-sizing: border-box;
+    font-size: 53px;
+    font-weight: 700;
+    position: relative;
+  }
+  .aboutItemPics .experience::before {
+    position: absolute;
+    content: "";
+    width: 217px;
+    height: 224px;
+    border-radius: 40px 40px 0px 40px;
+    border: 2px solid var(--btncolor);
+    top: 5%;
+    left: 10%;
+  }
+  .centerdiv {
+    position: absolute;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    height: 50px;
+    width: 50px;
+    background-color: var(--orangecolor);
+    bottom: 222px;
+    right: 254px;
+  }
+  
+  .aboutItemText h6 {
+    font-size: 20px;
+    color: var(--orangecolor);
+    font-weight: 500;
+  }
+  .aboutItemText h2 {
+    font-weight: 400;
+  }
+  .aboutItemText p {
+    font-size: 16px;
+  }
+  .aboutIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .aboutIcons .aboutIconText {
+    height: 45px;
+    text-align: center;
+    padding-top: 9px;
+    margin-bottom: 10px;
+    border: solid 1px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  .Emergency {
+    border: solid 1px #b2f0fb !important;
+  }
+  .aboutIconText h4 {
+    color: var(--btncolor);
+  }
+  .Qualified {
+    border: solid 1px #a4fcc4 !important;
+  }
+  .Professionals {
+    border: solid 1px #ffbdbc !important;
+  }
+  .Medical {
+    border: solid 1px #e2c4ff !important;
+  }
+  .Emergency::before {
+    position: absolute;
+    content: "";
+    height: 44px;
+    width: 46px;
+    border-radius: 0 20px 20px 0;
+    top: 0;
+    left: 0px;
+    background-color: #b2f0fb;
+    z-index: -99;
+    opacity: 0.7;
+  }
+  .Qualified::before {
+    position: absolute;
+    content: "";
+    height: 44px;
+    width: 46px;
+    border-radius: 0 20px 20px 0;
+    top: 0;
+    left: 0px;
+    background-color: #a4fcc4;
+    z-index: -99;
+    opacity: 0.7;
+  }
+  
+  .Professionals::before {
+    position: absolute;
+    content: "";
+    height: 44px;
+    width: 46px;
+    border-radius: 0 20px 20px 0;
+    top: 0;
+    left: 0px;
+    background-color: #ffbdbc;
+    z-index: -99;
+    opacity: 0.7;
+  }
+  .Medical::before {
+    position: absolute;
+    content: "";
+    height: 44px;
+    width: 46px;
+    border-radius: 0 20px 20px 0;
+    top: 0;
+    left: 0px;
+    background-color: #e2c4ff;
+    z-index: -99;
+    opacity: 0.7;
+  }
+  .aboutIconText .fa-solid {
+    font-size: 23px;
+  }
+  .aboutIconText h4 {
+    font-size: 17px;
+  }
+  .aboutItemText button {
+    z-index: 9999;
+    cursor: pointer !important;
+  }
+  .aboutItemText button:hover {
+    color: #fff !important;
+  }
